@@ -1,0 +1,130 @@
+.flex {
+  display: flex;
+}
+
+.top-content,
+.main-content {
+  flex-wrap: wrap;
+}
+
+.top-content .product-item {
+  position: relative;
+  max-width: 800px;
+  padding: 20px;
+  width: 290px;
+  height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.top-content h3 {
+  color: white;
+  font-weight: 500;
+}
+
+.top-content .desc {
+  font-size: 14px;
+  color: white;
+  max-width: 100px;
+}
+
+.top-content img {
+  position: absolute;
+  left: 160px;
+  top: 70px;
+}
+
+.bar-chart,
+.stacked-chart,
+.area-chart {
+  border-radius: 5px;
+  padding: 10px;
+  width: 380px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px
+}
+
+.bar-chart canvas {
+  height: 150px !important;
+}
+
+.stacked-chart svg {
+  width: 370px;
+  height: 150px;
+}
+
+.area-chart svg {
+  width: 370px;
+  height: 150px;
+}
+
+.bottom-content {
+  border-radius: 5px;
+  padding: 10px;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+}
+
+.bottom-content .days {
+  margin-left: auto;
+}
+
+.bottom-content p {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.bottom-content .status {
+  margin-left: auto;
+  font-size: 11px;
+}
+
+.area-line {
+  width: 1000px;
+}
+
+.area-line canvas {
+  height: 260px !important;
+  width: 850px !important;
+}
+
+.overall-order {
+  padding: 10px;
+  background-color: #F5F7FB;
+  ;
+  border-radius: 5px;
+}
+
+.overall-order .circle-blue,
+.circle-pink {
+  height: 10px;
+  width: 10px;
+  border-radius: 30%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.circle-blue {
+  background-color: rgb(46, 41, 150);
+}
+
+.circle-pink {
+  background-color: rgb(195, 85, 103);
+}
+
+@media only screen and (max-width: 600px) {
+  .bottom-content {
+    width: 400px;
+  }
+
+  .stacked-chart svg {
+    width: 300px;
+  }
+
+  .area-line canvas {
+    width: 300px !important;
+    height: 200px !important;
+  }
+}

@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+}
+
+.navbar {
+  position: relative;
+  height: 50px;
+}
+
+.navbar p {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.profile img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.profile-info {
+  width: 150px;
+  position: absolute;
+  color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  right: 1%;
+    top: 85%;
+    z-index: 1;
+    background-color: white;
+}
+.profile-info div {
+  margin: 5px;
+  cursor: pointer;
+}
+.notification {
+  position: absolute;
+  right: 20%;
+}

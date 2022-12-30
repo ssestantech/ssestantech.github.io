@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+}
+
+.container-fluid .top-nav {
+  padding: 0;
+}
+.back-color {
+  background-color: #1A3176;
+}
+.nav-link {
+  color: white;
+}
+img {
+  color: white;
+}
